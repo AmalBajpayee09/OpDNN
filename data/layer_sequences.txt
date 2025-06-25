@@ -1,0 +1,1000 @@
+Conv ReLU Dense Dense Add
+Add BN Add BN Dropout Dropout Add
+BN ReLU Conv BN Dense Pool BN Mul ReLU Dropout
+Dropout ReLU Add Mul Conv Conv BN Add Dense
+Dropout Pool Pool ReLU Dropout Pool Dropout ReLU Pool Mul
+Pool Conv Add Mul Add ReLU Add ReLU Add
+Add BN Dropout Add Add Add
+Pool Dropout Conv Dropout Dropout Dropout
+Pool Mul Add Dropout Mul Add Dropout Conv Dropout
+Conv BN Mul Dropout ReLU Add Mul Mul
+ReLU BN Pool Dense Mul Conv Dropout Dense BN Conv Pool Dropout Conv Mul
+Add Dropout Dropout Pool Pool Dense Dropout
+Add ReLU BN Mul Add Pool Mul
+Pool BN BN Add BN Dense Conv Pool BN
+ReLU Pool Pool Mul Pool Dense Pool Dropout Dense Dropout ReLU
+Dropout Mul BN Dense Add BN BN Dense Add Mul Pool BN Dense Add
+Add ReLU Add BN ReLU Add ReLU ReLU Pool Mul Dropout Pool Dense
+Conv Add Add Add Add Conv Add Conv Conv
+Dropout ReLU Pool Dense BN Dense ReLU Add Dense Add Dropout
+Pool Dropout Mul BN ReLU Dropout ReLU Dropout BN
+Dense BN BN ReLU Mul Pool Add ReLU Dropout ReLU Mul Conv
+BN BN BN Conv BN BN Add BN Mul Add Mul Mul Conv Pool
+Pool BN Conv BN Dense Dense
+Mul Pool Conv ReLU Dropout Dropout Dense Dense Dropout Mul Mul
+Mul Conv ReLU Dropout Dense ReLU Dense Dense Dense ReLU Dropout ReLU Dropout Dense
+ReLU Pool BN Add BN Add Pool Conv Dropout Conv
+Mul Dropout Mul Dropout Conv Mul Dense Dense Add ReLU
+ReLU BN Add Pool Dense Dropout Conv
+ReLU Dense BN Conv Dropout
+Dense Dropout ReLU ReLU Dropout Pool BN Add Dropout
+Mul Pool Dense Dense Dense Pool Pool Add Pool Mul BN Conv Dropout Mul
+Mul Dense Conv ReLU BN ReLU Pool ReLU Conv Dense Dropout
+Dense Pool Pool Pool ReLU Conv Dropout Conv Conv Dropout Dense BN Mul
+Dropout Conv Conv Pool Dropout BN Add Conv Dropout Mul BN Dense Mul
+Conv Pool Add Dense ReLU Conv BN Pool BN Add Dense Conv BN
+Conv Dense Dense Dense Dense Add Pool BN Conv Add BN Pool
+Mul Add ReLU Conv ReLU Pool BN Dropout Conv Conv Pool
+BN Add Mul Dense Add BN BN Mul
+Pool Mul ReLU ReLU Dropout Conv Mul ReLU Dropout ReLU
+Add Dropout Conv Dense Dropout Mul Dropout Pool Pool Conv Conv BN Dense Pool
+Mul Conv BN Dropout Pool Conv Add Dropout
+ReLU Dropout Mul Dense ReLU Dropout Dense
+Dropout Pool ReLU Mul Conv BN Mul ReLU ReLU Add
+Mul Dense Dense Add ReLU Mul ReLU Conv
+Mul Dense Pool Conv Pool BN
+Mul ReLU Add Dropout Dense Mul Pool ReLU Add
+Pool Dense Dense Conv ReLU BN
+Dense Pool Dense BN ReLU ReLU Conv Conv Dense
+Dense Conv Conv Conv Dense
+Add Conv Add Add Dropout Dropout ReLU
+BN Dense Add BN BN Dense ReLU BN Pool Add BN
+ReLU Conv Dense Dropout BN Mul Add Conv Pool
+ReLU Mul Dense ReLU Dropout
+Dropout Dense ReLU Dense Pool Dense Conv Add BN BN Pool Add
+Dropout BN BN Add Mul Pool
+ReLU Dropout Add Pool BN ReLU Mul ReLU Add BN Add Pool ReLU
+Add Add Pool Pool ReLU BN Mul BN
+ReLU Dropout ReLU ReLU BN BN ReLU Pool
+Dropout ReLU Add Pool Add Dropout BN Dropout Mul
+Mul Conv Dropout Mul Dropout Dense BN Dense
+Conv Mul BN Conv Dropout Dropout Mul Mul Conv Add ReLU Conv Mul
+Pool Conv Dense Add ReLU ReLU ReLU BN Dropout Add Mul Pool
+Conv Conv Conv Dense BN Conv Dropout Conv Pool Conv
+ReLU BN Dropout Dropout Dropout BN Dense Dense Conv Dropout
+Conv BN Mul Add Add BN Dense Add
+Pool Pool ReLU BN Mul Mul
+Conv Dropout Conv Dropout Pool Conv Mul Add Conv ReLU Dense ReLU BN Add
+Mul BN BN Mul Mul Mul Dropout Add Pool Dropout BN Add Dense
+Dense ReLU Mul Pool Mul Mul Pool
+Mul Mul Mul Dropout Mul BN BN Dense Mul Dense Mul ReLU Pool
+ReLU Conv Dropout ReLU BN BN Dropout ReLU BN ReLU Dense Dense Add
+Conv Pool Pool BN Add Dense Conv Mul Pool
+Pool ReLU Mul Dropout BN ReLU Conv BN Mul Conv Dense Add
+ReLU Add Conv BN ReLU Pool
+BN Add ReLU Mul Dropout ReLU ReLU Conv
+Mul BN ReLU Add Dropout BN ReLU Pool Pool Dense BN Dense Mul
+Mul Mul Dropout Dense ReLU Conv Pool Dense ReLU BN Dropout Dropout
+Add Conv Pool ReLU ReLU Dropout Dense Dense Mul BN Mul
+Conv Conv Add ReLU Add Conv Mul Dropout
+Conv Pool Conv Pool Dropout Add
+ReLU Dense Mul Dropout ReLU BN Pool Pool Dense ReLU BN Add
+Conv BN Add ReLU Dense BN
+Add BN Add Dense Dropout Dropout ReLU
+ReLU Conv BN Mul Dense Conv Add Add
+Pool Mul Conv Dropout Add BN Add
+ReLU Pool Add Conv Conv Dense Pool Add Add ReLU Conv Dropout Dropout Pool
+BN Pool Conv Dropout Conv Mul Pool Dense Add Dense ReLU ReLU Add
+Conv Conv Add Mul Add ReLU ReLU Mul Mul BN Add Dropout
+Dense Mul Conv Add ReLU Pool BN Dense Add ReLU Dropout BN
+BN Conv Dropout ReLU Dropout BN ReLU Dropout Dense BN Add Mul Pool
+ReLU Dropout Add Dense ReLU Add Conv Pool ReLU Mul Dense ReLU BN Mul
+BN Conv Add Add Pool Dense Mul Mul ReLU Conv Mul
+BN Mul Dropout Dropout Conv Dropout Add Mul Dropout Conv
+ReLU Pool BN Pool Add Dense Dropout
+BN Dropout BN Add BN Dense BN
+Add Dense Mul Mul Dense Add Pool Pool Dense
+BN Conv Dropout Add BN Pool Dropout Mul Mul ReLU Dropout Mul ReLU Mul
+Conv ReLU Mul Pool ReLU Dropout Dropout Add Dropout Mul ReLU Mul
+Pool BN Mul Dense ReLU BN Dropout Add Dense BN BN ReLU Pool Dense
+Dropout Pool BN ReLU Dropout
+BN Conv ReLU BN Mul Conv Conv
+BN ReLU Mul Mul BN Dense Dropout ReLU Conv ReLU
+BN BN Add Conv Conv Dropout Mul Add Mul Conv BN Add ReLU Dropout
+Add Mul Dropout Dropout Conv ReLU Mul Dropout Dropout Conv
+Add Dense Pool ReLU Dropout Add Dense Conv BN Mul Dense Add Add
+Mul Pool Dropout BN Dropout Pool Add Pool BN Dense Mul Dense Dropout Pool
+Add BN ReLU Add Pool Conv Pool Conv Add ReLU BN Pool Mul
+Pool ReLU Dense Add Add BN ReLU Pool Dropout Conv Add
+Mul Mul ReLU Pool Pool Dense ReLU BN Add
+Dense BN ReLU Pool Dense BN Mul Dense Add Add
+Add BN Pool Dropout Mul Dense BN Mul Dense
+ReLU Conv Dropout Conv ReLU ReLU Dense Add Mul
+Mul BN Add Mul Add BN Add Dense Dense Add Add Mul Conv
+Pool Pool ReLU Mul BN
+ReLU Dense Pool BN Pool Pool
+Pool Add Conv Conv Mul Conv Dense Pool Pool Mul
+Mul BN Add BN ReLU
+Mul Dropout Conv Conv ReLU Mul
+BN ReLU Add Dense Mul Mul Dense Mul Dropout BN
+Dense Add Mul Mul Dropout Dense Add Conv Pool BN Dense BN Pool
+Dense Pool ReLU Add Pool Dropout Dropout
+Dense Dropout Dense Dropout Dense ReLU Add
+Dense Pool Pool BN Conv Pool Conv Add ReLU
+Dropout BN ReLU Mul Add Mul
+Conv ReLU Conv Mul Mul Dropout Dense Dropout BN Conv Mul Conv Conv BN
+Dense Mul BN Add Mul Mul Pool Add Pool Dense
+ReLU Pool Add Dense Mul Conv Dropout Pool Pool Dense Dropout Pool Add
+Conv BN Pool Add ReLU ReLU
+Conv Conv Pool Add Pool Conv Add BN Add BN Mul Dropout Dense
+Pool Pool ReLU Mul Conv Dense BN Pool Dropout Dense Conv
+BN Dense Dropout BN Dense Dropout Mul Conv Add BN Dense
+Conv Mul Add Add Conv Mul Pool Add BN Conv Dropout
+Conv Add Pool BN Dense BN
+Dense Mul ReLU Add Dense Dense BN
+Dense Mul BN Mul Dropout Dense Dropout Dropout
+Pool Dense Dense Add BN ReLU Pool
+Dropout BN Dropout Dense Dense Conv
+Add Pool Add BN Pool Conv ReLU Pool Dropout
+Dense Dropout ReLU Add Dense BN Dropout ReLU BN
+BN Dropout Dropout Dense ReLU Mul Mul
+Mul Dense BN Dense ReLU Conv ReLU
+Add Dense Add Pool Add Mul BN Dropout Dense Dropout ReLU ReLU Mul
+Pool ReLU Add Dense ReLU Mul Dense
+Conv Dropout Dropout BN Add Conv Dropout ReLU Dense Conv
+Add Pool Pool ReLU Conv Dense
+ReLU Conv BN Pool Mul Dropout ReLU
+BN Conv ReLU Add Conv
+Conv ReLU Mul Add Mul Add Dropout Dropout
+Dropout Dense Conv Conv Mul BN Dropout Add Add Pool Dropout Add
+Mul Dropout Mul Dropout BN ReLU Dropout Dense Mul BN
+Add Conv Conv BN Pool Conv Dense Pool Mul BN Mul Add
+BN Add Mul Dense Conv BN Pool
+ReLU Dropout ReLU Add Conv ReLU BN Add Dense Conv Add Dropout Add
+ReLU ReLU Dropout BN Pool ReLU Mul ReLU Add
+Dense Mul Mul Dense Conv Conv ReLU Mul
+Dense Pool Pool Add Add
+Add Dense BN Mul Conv Add Dense Mul Conv ReLU
+Mul ReLU Pool Add ReLU Dense Pool Dense Mul Mul Mul Mul Conv
+Pool Add BN Add Add ReLU Dropout ReLU Mul BN Conv ReLU
+BN Dropout Dropout Dense Mul
+Conv BN Add BN ReLU Add Pool Dropout Add Conv Add Pool Mul Mul
+Pool Dense Conv Dropout Dense Conv Dense Dense Dropout ReLU BN
+Add ReLU Dropout Pool Dropout
+BN Conv Dense ReLU Mul Mul Mul BN Pool BN
+Dropout Conv Mul Conv Pool BN BN Conv Conv Pool Add BN
+Pool Dropout ReLU Add Conv Add Conv Dropout BN
+Pool Add Pool Add Conv Mul Add ReLU Mul Dropout Pool Pool
+Conv Dropout Conv Mul Dropout Dense Conv Conv Conv
+Dense ReLU BN Mul Dropout Pool Dropout ReLU
+Conv BN BN ReLU Mul ReLU Add BN Dense Dropout Dense Conv Pool
+ReLU Mul Mul Dropout Dropout Conv Conv Dropout BN Add Dropout
+Dropout Conv Mul ReLU Mul Pool Add
+ReLU ReLU Conv Conv BN
+Dense ReLU BN Add Conv Conv Dense Dropout Add Conv Conv Pool BN
+Dense Add Dropout Pool Mul Mul Add Pool Add BN Mul
+Dense Pool Add Dropout Dense Pool ReLU Mul ReLU
+BN Dropout Pool Pool Conv Mul Add Add Dropout
+Mul Pool ReLU Pool ReLU ReLU BN Mul
+Dense ReLU ReLU ReLU Conv Conv Dropout Dropout Dropout Dropout BN
+ReLU Dense Pool Dropout Pool Mul Dropout Mul Pool Dropout Conv ReLU
+BN Dropout BN Pool Conv Conv Add Mul Pool ReLU
+Add Dropout Dense BN Mul Pool Mul Conv Dense
+ReLU Dropout ReLU Dropout Pool Conv Dense
+Conv Pool Dropout Pool Add Pool Add Conv
+Dense Dropout Pool Dropout Pool Mul Pool Dropout Mul Pool
+Conv Conv Mul Dropout Add Dense Pool ReLU Mul Add Mul
+Pool ReLU BN ReLU BN Add Pool Pool ReLU Pool BN
+Conv Conv Dense Conv Conv Add Dense Dropout Conv Dense ReLU BN Pool
+Conv Pool BN Dropout Dense Mul Add ReLU Conv Dense Pool
+ReLU Dropout ReLU BN Add
+Dropout Mul Pool Conv Dense Conv ReLU Pool Add ReLU Add Mul
+Mul Add Add Conv Dropout Conv
+ReLU Dropout Mul Mul Conv BN Conv Dense Dense
+Dropout Pool Mul Pool Add Pool Mul
+Dense Dense Conv Dense Mul Dense BN Dropout Pool Conv
+BN BN Dense Dense Add Dropout Conv
+ReLU Add Mul Pool Add Mul Mul Pool Mul Pool Dropout ReLU
+Dropout Mul BN Add Dropout Dense ReLU
+Add Dropout ReLU BN BN Dropout
+ReLU BN Pool Pool Dense Pool
+Dense Pool Pool Dropout ReLU
+Dropout Add Add Add Mul Add ReLU
+Add ReLU Pool Conv Mul Conv Dense Add Pool
+Conv Dense Dropout Pool Add
+Add Conv Mul Dense Mul Mul Add
+BN Conv Dense Dropout Pool Dropout Add
+Dropout Add Conv Conv ReLU Dropout Mul Dropout BN
+Dense ReLU Mul Conv ReLU Pool Add BN Mul
+Pool Mul Conv Mul Dropout Mul
+Add Pool Dense ReLU BN Mul ReLU Conv Dense Dense Pool BN Dense BN
+ReLU ReLU Dense Add Dense Dense Pool Conv Conv ReLU Pool Conv Conv
+Pool Conv Dropout BN BN
+Pool Mul Add Dense BN Add Dropout ReLU Add Pool Dense ReLU Dense BN
+BN BN Add Pool Add Pool Pool Dense Pool Dense Dropout BN
+Dense Add Add BN Dense Pool Mul
+Pool Conv Dropout Pool Add Add Dense Pool Dropout
+Dense BN Dense Conv Conv Dropout Dense Dropout ReLU Pool
+ReLU Dropout Conv Mul Add Pool Pool
+BN BN Pool ReLU Conv Pool Pool Mul ReLU Conv Pool Conv Dense ReLU
+ReLU BN BN Pool Mul Conv Pool ReLU Dense Dense BN
+BN Mul Dropout Dropout Add BN Conv Add ReLU Dense ReLU Dense
+Add Add Mul Conv BN Dense ReLU Pool Pool ReLU Dense Dropout Add Dense
+BN Add Conv Mul Add ReLU Conv Pool Add Dense Pool
+Pool Dropout Dense Dense Conv Dropout Conv Mul Dropout Add Add
+BN ReLU Pool Mul ReLU BN
+Add BN Dense Pool Add Mul Dense BN Pool Mul Dropout Mul Dense
+Pool Dense Dense Conv Dense Conv Dropout Mul
+Dropout Pool Dropout Dropout Add BN BN Mul
+BN Dropout Dense Mul Mul ReLU BN Add
+Dropout Add ReLU BN ReLU Add ReLU Pool Dense ReLU ReLU Dense Dropout
+Add Mul Dropout Pool Mul ReLU ReLU Conv Add Pool Pool Dropout Pool Mul
+ReLU Dropout BN Conv Add
+Pool Pool Add BN Conv Mul Dense Conv Pool Dense Add Conv Add Mul
+Conv BN Dropout Dense BN Mul Mul Add Mul
+Dense Dense Conv Dropout Mul BN Mul Add Pool Dense Pool BN
+Mul Pool ReLU Mul Dense Dense Add BN Dense Add Dropout
+Pool Pool Dropout Pool Mul
+Dense Dropout Add Dense Mul Pool Dense Add Pool Dropout
+Add Mul Dropout Dropout Dense Dropout Pool ReLU ReLU ReLU Dropout Conv
+Dropout ReLU Dense BN Add Pool Conv ReLU
+Dense Pool ReLU Add Dense Conv ReLU Dense ReLU Add ReLU
+Add Mul ReLU BN ReLU Add Mul Add Pool ReLU BN
+BN Conv Conv ReLU Add Dense Mul ReLU
+Mul BN Dropout Conv BN
+ReLU Mul Add Conv BN Conv ReLU Dense Add Add Dense Dropout Pool ReLU
+Dropout Dense Mul Conv Pool Conv Dense Mul Dropout Dropout Conv Conv
+Conv Conv Dropout Add Dropout Mul Mul
+ReLU ReLU Dense BN Add Add Pool Conv Mul Dense ReLU
+ReLU Add Dense ReLU Dropout ReLU ReLU Conv Add Add Mul ReLU Mul
+Pool Add Pool Mul Dropout Mul BN Dense Conv Dense Pool
+Dense Dropout ReLU Add ReLU BN Mul Pool Dense
+Dense Conv Conv Add Dropout ReLU ReLU Add ReLU ReLU Conv ReLU Dropout Dropout
+Mul Mul BN ReLU BN Add Dense Conv Dense Pool BN Dense
+Add Dropout Add Dropout Conv Dense Dropout BN Dense Dense Add
+Dense Dense Add Mul Dropout Add Pool BN Add Dropout
+Conv Dropout Mul ReLU Add Conv Dropout
+Conv Mul Dropout Dense ReLU Conv Dense ReLU Pool Conv Add BN Pool ReLU
+Dropout Dense Add Add Pool BN Dropout Pool Mul
+Pool BN Mul ReLU Dense Add Dense Add ReLU Dense Pool
+Conv Dense Conv Conv BN Pool Dense Conv Mul
+BN Conv Dense Add ReLU Mul Dense Dropout Dense Dropout Conv ReLU
+Pool Pool Mul BN Add
+BN Pool ReLU BN BN Mul Add Dropout
+Dense Mul Mul Mul Conv Dense
+ReLU Add BN BN Add BN BN Pool Add Dense
+BN Dropout Conv ReLU ReLU Mul Dense Pool Add BN Dropout
+Add Conv Mul BN BN Pool Conv Pool Add Dropout
+BN Dropout BN BN BN Conv ReLU Mul BN Pool Conv Mul Pool Add
+Pool Dense Dense Dropout Dense Mul Dropout Pool Add BN Dropout Mul
+Conv Dense Add Mul Dense Conv Conv Pool Conv BN Dense
+Dense Conv Pool Mul Pool Dense Pool Conv Dropout Pool
+Dense Pool ReLU Add Mul Add Dropout Mul BN
+Pool Dropout Add Conv ReLU Dropout
+ReLU Mul Dense Dense Mul BN Mul Dense Conv BN ReLU Conv BN
+BN Pool Dense Pool Dropout Pool Mul ReLU Dense BN Conv
+Add Pool Conv Dropout ReLU Pool ReLU Add Add Pool ReLU Dropout
+Conv Conv Dense Dropout ReLU
+BN Conv BN ReLU Add Conv ReLU
+Conv BN Dense Pool Mul Add Dense Conv Pool Mul Mul
+Pool Mul ReLU Pool Conv Dense BN
+Conv Dropout Dense Conv Dropout Pool Conv Dense Dropout Conv
+Mul ReLU Dropout Conv ReLU Dense Dropout Dense Dense BN Pool Dense
+Pool Conv Mul Add Add Add Dropout Add Mul ReLU Dense
+BN Dense BN ReLU Dropout Conv Add Dropout Dense Dense Pool Conv Add Mul
+Dropout Dropout Pool Conv Conv BN Add Mul Dense Conv Pool Add
+Mul ReLU Dense Pool Dropout
+Add Dense BN Pool Dropout Pool BN Add Pool ReLU Add ReLU Mul Conv
+Add Conv Pool Add BN Conv Add Pool Dropout BN ReLU Add Dense Add
+Dropout Mul Dense Add Mul Add ReLU Mul ReLU
+Conv Dense Add Conv BN Conv Dense Add Pool Dense Dense Dropout Conv
+Dense Conv Dropout Add Dropout Pool BN Pool BN Conv Dropout Conv
+Add Pool Dense Dense Dropout Mul Mul Add Mul Mul Mul Dense
+Conv Mul BN Dense Conv Conv Dense Dense Conv Pool Dense
+ReLU Pool Dense Dropout ReLU Dense BN Dense Pool Pool Dense Add Dropout Conv
+BN Conv Mul ReLU Dropout ReLU Pool Mul Add Add Add Mul Mul
+ReLU Mul ReLU BN ReLU ReLU Mul
+Add Dense Conv Conv ReLU ReLU BN Dropout Conv Dense BN Dense Pool Add
+Add BN Conv Pool BN Add
+ReLU Pool BN Conv Add ReLU Dropout Pool Mul
+Dropout Add ReLU Conv Mul BN Dense Conv Add Add Add Dense
+ReLU BN Conv Dense Add Pool ReLU Add Dense
+Add Mul Add Add BN Conv
+Pool Mul Mul Add Mul Pool Conv Mul ReLU Dropout Dropout Add Dropout Pool
+Conv ReLU ReLU ReLU Dropout Add Dense Mul BN Add Add Pool Conv BN
+Add Dense BN Dropout Add Conv Mul Conv Pool Dense Dense Add Dense
+ReLU Dropout Dense Conv Dropout
+Conv Mul Conv Pool Conv Add
+ReLU Add Conv Add Add
+Dropout BN Pool Mul Dropout Pool
+Conv Add Add ReLU Dense Add Pool Add Mul BN Add BN
+BN Pool Dense Pool BN Add
+Dropout Dropout Dense Add Conv BN Dense Dropout ReLU Add Mul
+Add Conv Add Mul Add Dropout Dense Dense Dropout
+ReLU ReLU BN BN Dense Conv BN Add Dropout Mul ReLU Add Add
+Dense Add Dropout Add Mul Dense Add ReLU Conv Add Dropout Add
+Mul Mul Mul BN Dropout Add Dense Mul ReLU ReLU Dropout
+Add Dropout BN Add BN Pool Conv Add ReLU Mul Conv Dropout Dense
+ReLU Mul Dense Dropout Conv Pool Add
+ReLU BN ReLU Mul Dense ReLU Dense
+Dropout Mul Conv Dropout BN
+Conv Mul Add Pool Add Dropout BN Dropout Mul Pool Dense BN
+Dense Conv Mul Conv Conv Conv ReLU Pool Add Dense Conv Add ReLU Conv
+Mul Add Dropout BN Mul Dropout Conv Add
+Add ReLU Dropout Dropout Add Dropout Dense Dense BN BN Add
+Mul ReLU Dense Conv Mul Pool Add Dropout Add Pool Add ReLU
+Dropout Dropout Mul Pool Dense
+Pool Dense Add Conv BN Dropout Dropout
+BN Add Mul Dense Conv
+Conv BN Conv Add Add Mul
+Mul BN Pool BN ReLU Conv Mul ReLU Dropout BN Pool ReLU Conv
+Add Add Add Mul Conv Mul Dropout Add Add BN Pool Add Conv Dense
+Mul Add ReLU Add Mul Conv BN Add Add Pool Pool ReLU Dropout
+BN Dense Dropout Mul Pool Dense ReLU Dropout
+BN Dense Mul ReLU Pool Pool Dropout Pool Dense Conv
+Add Mul Pool Mul Dropout Mul Dropout ReLU Dropout Mul Pool Pool BN
+Dense ReLU Conv Dense Dense Add Conv Conv Dense Mul
+Dense Add Pool Conv Mul BN Dense Pool Dropout Dense Dropout Dropout BN Conv
+BN Add ReLU Dense BN Conv Dense Add Add
+Add Conv Conv BN BN BN Pool Conv ReLU Dense
+Conv ReLU ReLU ReLU Add Pool Dense Add Add Add Dense Add Pool Dense
+Add Conv Add Add Add Dense Dense Conv Pool ReLU Dense
+Conv Add Dropout Dropout ReLU Pool Pool ReLU
+Pool Dropout Dropout ReLU ReLU Add ReLU Mul Pool BN BN Dense
+Mul Pool Pool ReLU Dropout Add Add Mul Mul Mul
+Conv Mul Conv Add Dropout Pool Add Pool
+Mul Mul Dense Mul Mul Dropout ReLU Pool
+BN Conv BN Dropout Mul Dense Mul Add Mul Dense Dense Conv Add
+BN BN Pool Pool ReLU Pool Dense Conv Mul Add Conv Dropout Mul
+Add Dropout Mul BN Mul
+Conv Mul Conv ReLU BN Dense Conv Dropout Conv Pool Conv
+Pool Dropout Add ReLU Dense Mul Add ReLU BN BN Pool Dropout Dropout
+Dense Dropout Mul Add ReLU Dense Conv Dense Dropout BN Dropout
+Pool Dropout Conv Mul Conv Pool Pool Pool Pool Add Add Conv Pool
+Conv ReLU BN Conv Add Add
+Mul Dropout Conv ReLU ReLU BN Pool
+Dropout Conv ReLU Pool Dense
+Pool Dropout Dropout Conv BN Mul Add Mul Dense
+Conv BN Dropout ReLU Dense Conv Conv ReLU Pool
+Pool Conv Pool Add ReLU BN Pool Add
+Conv Add BN Pool Dense Dense Pool Pool Add BN Conv Mul
+Pool Add Pool Mul Conv Add Mul Mul Dropout Dropout Add
+Dropout Conv Conv Conv Pool Add
+Add Dense Conv Dense Add Pool Dropout BN Mul
+ReLU Dropout Pool Dense ReLU BN
+Mul Conv BN ReLU Dense ReLU Mul
+Mul BN Mul Mul Dropout Conv Conv BN Dense BN Mul ReLU
+Pool Dropout BN Dropout Mul ReLU BN Dense Add BN BN Pool Pool BN
+Dense Conv BN Mul Dropout BN Pool
+Conv Dense ReLU Dense Dropout ReLU Mul Conv
+BN Mul Dense Pool Conv
+Conv BN Dropout Dropout ReLU Dropout Conv Dropout Conv Pool Add Add Add
+Dropout Add Add ReLU Pool BN BN Mul Dropout Mul Dropout Dense Dense
+Dropout Dense Conv Dense Add
+Pool BN Dropout BN Dense Dropout BN Dense Dropout
+Conv BN Pool BN Conv Conv Conv Dropout Mul Conv
+Dropout BN Dropout Dense ReLU Dropout Dense Conv BN Conv BN Dropout
+Add Mul ReLU Add Add ReLU Conv ReLU Add Conv Dropout Add
+Pool Mul Mul Conv Conv Dense Add Add Dense Dropout ReLU Add Dense ReLU
+Add Add ReLU Dropout Conv Conv Add Dropout Dropout Dropout
+BN BN BN Conv Pool Dropout BN Dense Mul Add Mul Add
+BN Add Add Pool Conv Pool
+Add Add Dense BN Add Pool
+BN Conv Add Dropout Pool ReLU Pool Conv Conv Conv Add
+Mul Conv ReLU Conv Pool Conv Add Mul Dense Conv Mul Pool Pool
+Dense Add Mul Add Dense Dense
+Dense BN Add Add Conv
+Add Pool Conv Dense BN BN Dropout Pool Dropout Dense
+Add ReLU ReLU Pool BN
+Dense Conv ReLU Dense ReLU Add Dropout Conv Dropout Dropout ReLU Pool Pool
+Mul Dense Add Dense Conv Conv BN
+Add Mul Dropout Pool ReLU
+BN Dense Dropout Mul BN Add Dense Conv Mul ReLU
+BN BN Mul ReLU Add Conv ReLU Mul Dropout
+Add Mul Dropout BN BN Mul Conv
+Pool BN Add BN Dropout Dropout BN Conv Conv Mul Dense
+Pool Mul Dense Dropout Conv Dropout Dropout
+ReLU Conv ReLU Pool Mul Dropout
+Mul BN ReLU Dense Dense Conv Dropout Mul Dropout
+Conv Add Add Pool Mul ReLU Dense Add Dropout Mul Mul Add
+Conv Mul Conv Dense Add Dropout
+Dropout Add Pool Add Pool Pool Mul Mul Pool Add Mul BN Conv
+Dense Pool Dropout Dense Add BN Pool Pool Dropout Conv Dropout
+ReLU BN Dense BN ReLU Dropout ReLU Conv Add Add Dropout Add Pool
+Conv BN Add BN BN Pool Conv Add Pool Add BN Dropout
+Pool BN Pool Pool BN Conv ReLU
+Dense Dense Dropout BN Mul Dense Dropout ReLU Dropout Dense Dropout Conv Dropout
+Pool Mul Dense Dropout BN Add ReLU Dropout
+Conv ReLU Dense ReLU Dense ReLU BN Dense BN
+Pool Dropout Add Conv Dropout BN Dense Add Add ReLU Pool
+Conv Pool BN Mul Dropout Mul Mul Mul Pool Conv
+ReLU Dense Add Mul Pool
+Dense Add Pool Pool BN BN BN ReLU Pool Mul Conv Dropout BN
+Dropout Dense Pool Pool Mul BN Dense Mul ReLU Dense Mul BN
+Conv Add Dropout BN Dense Dropout Pool
+Dropout Conv Dense BN Pool Dropout BN
+Add Dropout Dense Mul Add
+Mul Dropout Add Conv BN Conv Dense Mul BN
+Conv Mul Pool Add Add Conv BN Dense BN Pool Conv Add Mul
+Dropout BN Dense Add Dense Dropout Dropout BN BN
+Mul Dense Mul BN Mul Dense Mul Dropout ReLU Mul BN Add
+Mul Dropout Dropout Mul Dense
+Pool ReLU BN Dense Add BN Conv Add Dropout Dense Dense Conv
+ReLU Conv Pool Mul Mul Conv Conv Mul Mul BN ReLU
+Conv Dense Mul ReLU Dropout Dropout ReLU Dense Dense Dense
+BN ReLU Dropout Dropout ReLU Pool Mul BN ReLU Dense Mul Conv
+Mul Pool Pool ReLU BN BN Dropout Conv BN Pool Dropout Dense
+Mul ReLU Add Dense Mul
+Dense ReLU Mul Dense Dense Pool Mul Add Add Dense Dropout BN BN
+Conv Dropout Conv Add BN Dropout BN Conv
+ReLU Mul BN Add Mul ReLU Mul
+Mul Conv Pool Dropout BN Pool ReLU Dropout Conv ReLU
+Dropout Mul Add ReLU BN Dropout Mul Pool
+Conv Dense Pool Dropout Mul Dropout Add Dropout BN BN Conv Dropout ReLU Add
+ReLU Mul BN Conv ReLU Pool Dropout Dense Mul Dropout BN BN ReLU ReLU
+Mul ReLU Mul Pool Pool Add BN BN Mul
+Add Conv Mul Conv BN ReLU
+Add BN Dense Dense Dense Add
+Mul Conv Add ReLU Pool
+Add Dense Conv Mul Dropout Add Dropout
+Dropout BN Dropout BN ReLU Dense Add BN ReLU
+Conv Conv Add BN Dropout
+Add Add Mul ReLU BN
+ReLU Add Mul BN Dropout ReLU Pool BN
+Dense Dense BN Conv BN Pool Dense Dropout Dense Add Dropout Dropout ReLU
+Dense Add ReLU Add Add ReLU Conv Dropout
+Dropout ReLU Mul Add Pool ReLU
+Pool Pool Conv Mul Mul BN ReLU
+Dense ReLU Dropout Pool Pool Mul
+Dense Dense Add ReLU Dropout Dense Pool ReLU Conv Pool Pool ReLU Dense
+ReLU ReLU BN Dropout Pool Mul Mul Mul Dense Pool Add Pool Conv
+Dense Conv Dense Conv ReLU BN Dropout ReLU
+Add Add BN ReLU Add Dense Dense BN Pool ReLU Mul
+BN BN Mul Dense Dropout ReLU ReLU Conv Dropout Dropout
+Pool ReLU ReLU Dense Dropout Conv ReLU Pool Add Conv
+Dropout Add Pool BN Conv ReLU Mul Dropout Dropout Pool Pool Mul Add Mul
+Mul Mul Conv Mul Dropout Add Pool
+Add BN Add Pool Conv Dropout
+Pool Conv ReLU Dropout Pool
+Dropout Dropout ReLU ReLU BN BN Pool Dropout Add Add Dropout Dense
+Conv BN ReLU BN BN BN BN Add BN ReLU Pool Pool Add
+Add Pool Conv Dropout Dense Dropout Pool Dense Pool Dropout BN Dense Conv Pool
+Mul ReLU Add ReLU BN Dense Dense Dense Add Dense ReLU BN
+BN ReLU Conv Dense Add BN Add Dense Conv Mul Dropout
+ReLU Pool Dropout Conv ReLU
+Dense BN Conv Add Pool Dropout
+Dense BN Dense Add ReLU Mul Dense Mul Mul Dense
+Conv Dense Conv Mul Dense BN Conv Pool Mul Conv
+Pool Pool Add BN Pool
+BN Add Conv Mul ReLU
+Add BN Pool Dense Add Pool Dense
+Pool Pool Dropout Dropout ReLU BN Dropout ReLU BN ReLU Mul ReLU Dropout ReLU
+Pool Pool Mul Mul Pool
+Mul Dense Conv Conv Dense ReLU Dropout Conv Dense Conv Conv Dropout ReLU Mul
+Mul Add BN Mul Dense Mul Mul Pool Add Dropout Mul
+Pool Dense BN Conv Add Dropout Mul Dropout Add Dense Dropout Conv
+BN Mul Mul Dense BN Dense
+Mul BN Pool Dense Dropout Pool Add ReLU
+Add Dropout ReLU Dropout Mul Dense BN BN Pool Pool Add BN
+Add Mul Conv Conv Conv Pool Pool Dense Dropout ReLU ReLU Mul Add
+Conv BN BN Mul ReLU Mul Conv BN Dense BN Dense
+Conv Dense Conv BN Mul Mul Mul Conv Mul
+ReLU Mul ReLU Add ReLU Conv Dense Pool Pool Pool Dense
+Add Conv Dropout Dropout Dropout Mul Mul
+Dense Pool Conv Conv Mul ReLU Dropout
+Pool ReLU Mul Conv Conv Dense
+Add Add Conv ReLU Mul BN BN Conv
+Mul ReLU Conv ReLU Pool Mul Dense Dense Dropout Pool
+Conv Dense Dropout Add Dense Mul
+Conv Pool Add Mul Conv ReLU Pool Conv Pool Pool Add Add BN
+Mul Dense BN Add Mul Add Dense Pool ReLU Dense
+Conv BN ReLU BN Dropout BN Mul Pool Dense Mul
+BN Conv Add Mul Dropout Pool Pool Dense BN Add Conv Pool Mul ReLU
+ReLU BN Add ReLU Conv Dense Conv Dense Mul BN Mul
+ReLU ReLU Dense BN BN Mul Conv Conv Pool
+Add Pool Dense Dropout Dense
+Conv Mul Pool Pool Pool BN Mul ReLU Add ReLU Pool ReLU Conv Dropout
+Mul Dropout Add Add ReLU Add Add Dense Conv Pool
+Conv Mul Dropout Dropout ReLU Dropout Pool Dropout Mul
+Pool BN Conv Mul BN Mul Add Conv Add Add ReLU Pool Pool BN
+ReLU Add Dropout BN Dense Dropout Conv Dense Conv
+ReLU Pool BN Add Conv ReLU Conv Dense Add ReLU Mul
+Add Dropout Dense Conv BN Dense Add Add Add Dropout Add Add ReLU Mul
+Dense BN Add BN ReLU Add Mul
+ReLU Add Pool Pool Dropout Mul Add Dense
+Dropout Mul Add Mul Dropout Dropout Conv ReLU ReLU BN Add ReLU
+Dropout Dropout Dropout Mul Dense ReLU Mul BN ReLU Mul Mul Conv
+BN BN Pool Dense Add Dense BN Mul ReLU
+Mul Pool Dropout ReLU Pool ReLU Conv ReLU ReLU BN ReLU Mul Add
+Add Dropout Pool Conv Pool BN Conv BN Pool
+Mul Dense Mul Add Add BN Add Add BN BN ReLU Mul Conv
+Dropout Add Dropout Add Add Add BN Add Conv
+Conv BN BN Add Add Pool Mul ReLU Mul
+Mul Dense Mul Pool Conv ReLU Add Conv ReLU Add BN Add
+Mul Add Conv Dense BN Pool Mul BN BN Dropout
+Mul BN Pool Add Dropout Conv Conv BN Dense Conv Dense Add Dropout
+Dropout BN BN Mul Pool
+Conv ReLU Mul ReLU ReLU Dropout BN Pool Add Pool Mul
+Dropout Mul Dense Add Dropout Add ReLU Add Dense
+ReLU ReLU Add ReLU Dropout
+Mul Pool Conv Mul Mul Dense Dropout Dense ReLU Add Add Conv BN
+Dropout Dropout Dropout Pool Add Mul BN Dense Conv Conv Add
+Dense Add Dense ReLU Dense Dense Mul Conv Dense Conv Pool
+Conv Dense Dense ReLU Conv Pool ReLU Conv
+Pool ReLU Dense Pool Dropout BN ReLU ReLU
+Dropout Mul Pool Mul Add Conv ReLU BN ReLU Dense Dropout Pool Pool
+Conv Pool Conv Add Dropout
+Dropout Add Mul Pool ReLU Conv Dropout Pool
+Pool Conv Conv ReLU Mul Dropout Pool
+BN Conv Dropout Pool BN BN
+BN BN Mul Conv ReLU Conv Conv Mul Conv Add Mul Dense Add Add
+Pool BN Pool Dense Mul ReLU Dense Dropout Add Dropout Conv ReLU ReLU Pool
+Dropout Dense Conv Dropout Dense
+Conv Pool Pool Add Conv Dense ReLU Mul BN Add
+Conv Dropout Mul Pool Mul Dropout Conv Mul Dense
+Pool Dense ReLU Dense Dense Pool Add Dropout Conv Mul
+Add Dense Dropout Conv ReLU
+Dropout Pool Conv Dense ReLU Dropout BN Pool Conv Add
+Conv Add Dense ReLU Dense Dense Dense
+Dense Dropout Dropout Pool Add ReLU Dropout
+Dropout ReLU ReLU BN BN Pool Dense Pool BN
+BN Dense Dense Dense Conv BN ReLU Mul Pool Mul Dropout Mul Pool BN
+Dense Dropout Add Pool ReLU Mul Dropout Dense
+BN BN ReLU ReLU Pool Conv Mul Dense Pool Dropout Conv
+Pool ReLU Add Conv Dropout Dropout ReLU Dropout Dropout Dense BN ReLU Mul
+Dense BN Conv ReLU Dropout Dense Conv Dropout Dropout Mul Dropout Dropout
+Conv Add Add Dense BN Conv ReLU Pool Dense Mul Dense Pool Conv
+BN Dropout Mul Dropout Pool Conv
+BN Add Mul ReLU ReLU BN Pool Add
+Pool Mul Conv ReLU Pool Dropout Mul ReLU Mul Dropout Pool Dense ReLU Pool
+Conv ReLU Add Conv BN Add Dense Dropout Dense BN
+Dense ReLU Dropout Dropout Mul BN Pool Conv Pool Pool ReLU
+BN BN BN Mul BN ReLU BN ReLU BN
+Add Dropout Dropout Add BN Dense Dense BN Mul
+Dropout BN BN Dense BN Add Conv ReLU Add Mul Conv ReLU Mul Add
+Conv ReLU Mul Dropout ReLU Dense
+Pool Pool Add Add Add ReLU Dropout ReLU Dropout
+Mul ReLU ReLU Conv Dense ReLU Mul
+Mul Dense Conv Dropout Pool Dense Dropout Dense Mul Pool ReLU
+Conv Pool BN Add Pool Dropout Add Mul Dropout Dense Pool
+ReLU Dropout Dropout BN Dropout Pool
+Dropout Mul Add Dropout ReLU Mul Dense Conv Dense Dense Pool Dense Conv
+ReLU Conv Dense Conv Mul Mul BN Dropout Add Conv Dropout Dropout Mul Add
+Add Dense BN Dropout ReLU Conv Conv
+BN Conv BN Pool Dropout ReLU ReLU Pool Dropout Dropout Dense Dense Dropout
+Conv ReLU ReLU BN Pool ReLU
+Dropout Dense Pool Conv Add Mul Mul BN Pool
+Dropout ReLU BN Pool Dense BN Mul Conv Conv Mul Conv
+Pool Pool BN Mul BN Dense Dropout Add
+Mul Conv Add Dense Dropout
+Mul Pool Pool BN Mul Mul BN ReLU Dense
+Dense Mul Conv Pool Mul Mul ReLU Dropout Dense BN ReLU ReLU
+Mul Dense Pool Pool BN Mul Dropout BN Pool Pool Dense Conv
+BN ReLU Add Add Mul Mul Dropout Pool Dense
+Dense BN Pool BN Dense BN Dense ReLU Mul Mul Pool Pool
+Mul Dropout ReLU Conv Dropout Dropout Conv Add Add ReLU Add Mul BN Conv
+Conv Mul Pool Add BN ReLU Dropout Conv Pool Conv BN Dropout Conv
+Add Dropout Pool ReLU Add BN BN Dropout Mul Conv Pool
+BN Mul Dense Conv Conv Add Pool Conv Dense Dense
+Dense Mul Dropout Dropout Mul Conv Dense ReLU Mul BN
+Add Dense Pool Conv ReLU Dropout Dropout Pool ReLU ReLU Dropout Add Mul Mul
+BN Add Dropout Conv Dropout ReLU Add Mul Dense Mul Dense
+Dense ReLU ReLU ReLU Dropout ReLU ReLU Conv
+Dropout ReLU Dropout Mul Mul Mul Dense ReLU Pool Mul Dense ReLU Add
+Add Mul Pool Add ReLU
+Dense Conv Pool Dropout Conv ReLU ReLU Dense
+BN BN ReLU Dropout Pool Dropout Dropout ReLU Dense Conv Dropout Add Dropout
+ReLU Mul ReLU Mul Mul Dense Pool BN Dense ReLU
+Mul Add BN Conv ReLU BN BN Conv ReLU Add Mul
+Mul Dense Pool BN ReLU Mul
+BN Dropout Add ReLU Conv BN Pool Mul Dense Conv Pool ReLU Add Pool
+Mul ReLU Dense Pool Dropout
+Mul BN Dense Mul Conv Pool Conv Add Mul Conv BN Mul Dropout
+Dense Dropout ReLU Add Add Dropout ReLU Conv BN BN Dropout Add
+ReLU Add Mul ReLU Add BN Add Conv Dropout Dense Pool
+Mul Mul Pool ReLU Dropout Pool Mul BN Dropout ReLU ReLU Pool Dense Dropout
+Dense Pool Add Add ReLU Mul Pool BN Dense Dropout Mul ReLU ReLU
+Dense Add Pool Dense Dropout
+Pool Dropout Mul ReLU Dense Dense Dense ReLU ReLU
+Pool Add ReLU Add BN Dropout Conv Dropout Dropout
+Conv Dense Conv BN Dropout Mul
+Add Conv Dense Dropout Pool Conv BN Conv
+Pool Mul Conv BN Dropout BN Dense Dropout
+Pool Pool Dropout Pool Mul Conv BN
+BN Mul Pool Add Mul
+Dropout BN Pool Pool Mul ReLU
+Dense Dense Dropout Dropout BN ReLU Mul ReLU Dropout Mul Dropout
+BN ReLU BN Dense ReLU
+Dropout Conv Pool Dense ReLU Dropout
+Mul ReLU Mul Pool Dropout Add BN Mul Mul Dropout Pool Pool
+BN Dense Add Conv Dropout
+Conv Mul Conv Add Conv ReLU BN Mul Conv Add BN
+Mul Pool Mul ReLU Dense Add Conv Pool
+Mul Add ReLU Conv BN Pool Add Dense Add Pool BN Conv Dropout
+Dense Add ReLU Mul BN Conv Pool Mul ReLU Dropout Dense
+Dropout Pool Mul Dropout Pool Mul Pool ReLU ReLU BN Add ReLU
+Dropout Pool Pool ReLU Mul BN BN Pool Conv BN Dense Dense Pool Conv
+Dense Pool Add ReLU Add Dense
+Dense Add Conv Pool Pool
+Pool Conv Conv ReLU Dense
+Pool Dense Pool Add Conv Dropout ReLU Mul BN Pool Mul
+Conv BN Add Conv BN
+BN ReLU Add Dropout ReLU BN Conv Dense Dense Mul Dropout Dropout
+ReLU Conv Dropout Add ReLU BN Dropout Pool Mul Pool BN Dense ReLU
+Dropout Dense Mul Dense Add ReLU Dropout Dense Dropout BN Mul
+Add Add Pool Mul Dropout Add Dropout Dropout Dense Pool Add Dropout
+Dropout Dense Mul Add BN
+Pool Dense ReLU ReLU Add Pool
+Mul Add Add Pool BN Dense Conv Dropout
+Dense Dense Conv Dropout Dense Conv Mul BN Add BN
+Pool Dense Mul BN Conv Dropout Mul
+Dense Mul Dropout ReLU ReLU Dropout Mul ReLU Add Pool Dropout ReLU
+Add Dropout Dropout Conv Pool Dense Add Mul Dropout ReLU Add Pool Pool
+ReLU Pool Mul ReLU Mul Dropout Mul Conv BN
+Conv ReLU Add Dense Dense Pool
+Dropout Add Pool BN Pool Conv Dense Pool Conv ReLU Dense ReLU
+BN Dense Conv Mul Dense BN ReLU Mul ReLU Conv Conv Conv ReLU ReLU
+Dense Add Pool Mul BN Conv Conv Dropout Dropout
+Conv ReLU BN Pool Add Mul BN Add Pool Pool ReLU Dropout Pool Dense
+Dropout ReLU Conv Add BN Dense Dropout Conv Dropout Dense BN ReLU Pool
+Add ReLU Pool Dropout Mul Dropout Dense Dense Add ReLU Add
+Conv Conv Mul Mul Dropout Conv Pool Pool
+BN Mul Dense Mul Dense Mul Conv Conv Mul
+Dropout ReLU Mul Conv Mul Add Dense Conv Dense Pool
+BN Dense Mul Mul Add Add Conv Mul Conv Dense Add BN Dropout Dense
+Dropout BN Dropout Mul Dense Pool Conv Mul Mul Conv
+Dense Add ReLU Dense Conv ReLU
+Dense Mul Conv Add ReLU Mul Add Dropout Conv Conv ReLU Add BN
+ReLU Pool Add Add Add Dropout Dense
+Add Add Dropout Mul BN BN Mul Dense BN BN Dense Mul Dropout Pool
+Conv BN Mul ReLU Mul ReLU Mul ReLU Add ReLU
+Dense Pool Add Add Conv ReLU ReLU Mul Pool Mul
+BN Conv Mul Dropout ReLU ReLU Mul Dropout Dense
+Mul ReLU Dropout Dropout Mul Mul BN Dense BN ReLU Add Add Dropout Dense
+ReLU Dropout ReLU Dropout Add Pool Mul BN Add Conv
+Dense Mul Add Pool Pool Pool Add Mul Add Dense Dense Mul
+Dense Dense Conv Add Pool ReLU Add Conv Dense Mul
+BN Pool Dropout Add ReLU
+BN Dense Conv Dropout BN Conv Conv Pool Pool
+Mul Mul Add Conv BN Dense ReLU BN
+ReLU Add BN Conv Dense BN Conv BN Pool ReLU Dropout BN Conv BN
+Mul Dense BN BN Add Mul Pool Mul ReLU Conv Dense Pool Add Mul
+Dropout Mul Conv Dropout Conv ReLU Conv Dropout BN Dense Dense Dropout Pool Dense
+Dropout Pool Mul Conv Conv Mul Pool Pool Mul Mul Dropout Dropout
+Conv ReLU BN Pool Mul Dense Dense Pool BN Dense Mul Dense BN
+Dense Dropout Dropout Dense ReLU ReLU Dense Conv BN Add Mul ReLU
+Dense Mul Conv Dense Pool Mul Dropout Conv Conv Dense Dropout
+Add Dense Mul Dropout Pool Dense Pool Add Conv
+Mul Mul Add Dropout ReLU BN BN Conv BN Mul
+Add Add Dropout Dropout Add
+Dense BN Dropout Add Dropout Dense Pool Mul Dropout BN Dense
+Dropout Dropout Dropout Add Pool Mul Mul Dropout
+BN Dropout BN ReLU ReLU Add Add BN Dropout Conv Add
+Conv BN Dropout Conv ReLU Pool Dense Pool Add BN Conv
+Dense Dropout BN Conv Dense BN Dropout Add Pool
+Dense Dense ReLU BN Dropout Add Dense Pool Conv ReLU
+Dropout Add Dense Pool Dense Dropout Pool
+Add Dense Pool Conv Mul Add Pool Pool Add Dropout Conv
+Conv Conv Mul Mul Dense Add Mul Dense Dense BN Dense Pool
+Conv Conv Dense Add Conv Dense Dropout Pool
+ReLU ReLU ReLU Mul BN Mul Dropout Add Pool Dropout ReLU
+Add Pool Dropout Mul Conv Pool BN Mul Mul Dense Conv Pool
+Pool Pool Conv Pool Conv Dropout Conv
+Dropout BN Dense Add Pool Mul
+Conv Dense ReLU Add Mul Pool Dense BN Dropout ReLU Dropout Dense Add
+Add Add Dropout Conv ReLU Pool Dropout Dropout
+Pool Pool Mul Dropout Pool ReLU ReLU ReLU ReLU BN
+Add Dropout Pool Dense Dense Dropout Pool Conv Pool Conv BN
+ReLU Conv Dropout Pool Conv Dropout Dropout Conv
+Add Dropout Add BN Dropout BN Conv
+Add Pool Pool Conv Add BN Dense Conv Dropout Pool Dense Pool Pool
+Dropout Conv Mul Dropout Pool Pool Mul ReLU BN Add BN BN Add
+Dense Dropout Dropout Dense Add Mul Dropout ReLU
+Add ReLU Add Dense Conv Dropout BN Pool Conv Dropout BN Dense Conv
+Dropout BN Dense Conv ReLU Add Mul Dense Dense
+Mul Dropout ReLU Conv Pool ReLU ReLU Add Dense BN Add ReLU Dropout BN
+ReLU Conv BN Conv Dense BN
+Add Dense Conv Dropout Dropout Dropout Dense
+Mul BN Dropout Pool Dropout Mul Conv Dropout BN Dense Add Add Dense
+Mul Add ReLU Pool Pool ReLU Mul
+BN Mul ReLU Dropout Mul Add Dropout Add Conv BN BN Dense
+ReLU Dense Dense Mul Pool BN Conv Pool BN Conv BN Pool Add
+Dense Dropout Dropout Pool Dense Add Add Dense Mul ReLU Add ReLU BN
+ReLU Mul BN Dense Dropout Dropout Dropout Dropout
+Pool Conv Dropout Mul Conv Pool Mul
+Add Conv Conv Add ReLU Dropout
+Dropout Conv Dense Pool Conv Dropout
+Conv Mul BN Conv Add
+Mul BN Dense Dropout Dense
+BN Pool Dense Add Mul Pool Mul
+Mul Conv Add Dropout ReLU Dense BN
+Conv Add ReLU Dropout Pool ReLU Add BN Conv Pool Mul ReLU ReLU Dense
+Pool Add ReLU Add Pool BN
+Mul Dropout Add Dropout BN Dense BN Mul ReLU ReLU Add Conv Mul
+Add Dropout Mul Conv Add
+Pool Add Mul Pool Conv Conv Mul
+Add Mul Add ReLU Dropout Dropout
+BN BN Conv Mul ReLU Dense Mul BN Pool ReLU Add Mul
+Conv Mul Dropout Dropout ReLU Dense Conv ReLU Pool Dense ReLU Mul Dense
+Dense Add Add BN Add Dropout Dropout
+Dropout BN Mul ReLU Pool Conv Dense ReLU Mul Add Pool Dense Mul
+Mul BN Dense BN Dense ReLU Pool Add BN BN Dropout Conv
+BN Conv Mul Mul Dense Dropout Mul
+Conv Add BN Mul BN Dense Dense Add Pool Pool BN Dropout ReLU Add
+Mul BN Add BN Mul Pool Pool Conv Pool Mul Conv ReLU Conv Pool
+Pool Dropout Conv Add Conv BN ReLU Add Pool Pool
+Dense Conv Mul Dropout Conv Mul Dense Dense
+Pool ReLU Dropout Add BN
+Dropout Add Dropout ReLU Pool Conv Add Dropout BN Mul
+Dropout BN Dropout ReLU ReLU Mul Conv Dense Conv Add
+ReLU Add Conv ReLU Dense
+Pool BN Pool Dense Add Conv Conv Dense Pool Conv Dense Pool Conv Dense
+Dense Conv ReLU Dropout Dense BN
+BN Dropout Add BN Mul Add BN Mul Pool ReLU BN ReLU Dropout
+ReLU Mul Pool Dropout Pool ReLU Mul Mul Mul Conv Dropout Dropout Conv
+Conv Dense Conv Conv Mul Add Dropout Dropout
+Conv Pool ReLU BN Conv Pool ReLU ReLU Mul ReLU Mul BN Dropout BN
+Dense Mul Add ReLU Pool Pool Conv Dropout Pool Mul ReLU
+Mul BN Conv Mul Add Dropout Add ReLU Dense Conv Add
+Add Dense Add ReLU Mul Pool Dropout
+Add Add Mul Mul Mul Dense BN Mul Mul Mul Add Mul Dropout BN
+Dense Conv BN Pool ReLU Dropout Conv Mul
+ReLU BN Dropout Pool Add ReLU Add Dropout Mul Mul
+BN Mul Dense Dense Add Dense
+BN ReLU Dense Mul BN Pool Conv BN
+Dropout ReLU Dropout Dense Dropout ReLU Dropout BN ReLU Dropout Conv
+BN Dropout ReLU ReLU Pool Dense
+Pool Pool Mul BN Pool Mul ReLU ReLU ReLU Pool Dense BN Dense Mul
+Conv BN ReLU ReLU Conv Mul Dense ReLU
+Conv Pool ReLU Mul Conv
+Dropout Dropout Pool BN Conv
+Dropout Dropout Mul BN Dropout Add Mul Mul Add Pool
+Dropout Dense Conv Mul Conv
+Pool Dense Pool BN Dropout Dense Dropout Dropout Pool Mul Mul ReLU
+Mul Pool ReLU ReLU Dropout Mul
+ReLU Dense Dropout Mul ReLU Dropout ReLU Dense Pool Pool BN
+Pool Pool Pool Dense ReLU Pool Mul Pool Dense Mul BN
+BN Add Pool ReLU BN BN Dense Pool ReLU Dense Dropout
+ReLU Add BN Mul Add Conv Conv Conv Conv Add Conv BN
+Add Dense Add BN Dropout Conv
+BN Mul Conv BN Pool Pool Conv Add ReLU Conv ReLU Pool Add BN
+Add Pool BN Mul Mul Pool Mul Conv Dropout Dropout
+Mul Dense Mul Mul BN Add Dropout ReLU Dense
+Conv ReLU BN ReLU ReLU ReLU ReLU Dropout
+Conv Dense Pool Mul Conv ReLU ReLU Dense ReLU Conv Pool Add ReLU
+Dropout ReLU Dense Dense Add Pool Mul Conv Mul Dropout Conv
+BN ReLU Dense Add Add Pool Conv Pool Conv
+Dropout BN Dropout Add Conv Dense Pool Pool ReLU Mul Mul
+Dropout Dropout Dropout Dense ReLU Dense Conv Conv Dropout Dropout ReLU Pool
+Dense Mul ReLU ReLU Dropout ReLU
+Conv BN Pool Conv Pool Dropout Dense Add ReLU Pool BN
+Dense Pool Conv Add Pool
+Conv Dropout Dense Dense Conv Dense
+Add Dropout ReLU Add BN ReLU Conv BN Dense BN Conv
+Add ReLU ReLU Mul ReLU Dropout Mul ReLU ReLU
+Dropout BN Conv Dense ReLU Dropout BN Conv Mul Mul
+Dense Mul Conv Conv Pool
+Dense Add Dense Conv Add Pool Conv Add ReLU Add Dense ReLU Pool Mul
+Pool ReLU Add Conv Dropout Dense Add
+Add Conv Dense Conv BN Pool
+BN ReLU Mul Dropout ReLU BN Dropout Add BN Dropout ReLU Conv
+Mul Conv Pool Dense Add Add Mul Dense Pool Mul Dense Dense
+Conv Dense Conv Dropout Dense Dropout Dense Add
+Mul Conv Pool Conv Conv Pool BN Add Dropout Mul ReLU
+Dense ReLU Dense Mul Add Mul Conv
+BN Pool ReLU Mul Mul
+Dense ReLU Add Add Dense Add Dropout Mul BN Dropout
+Mul Add Dropout Add Mul Mul Mul Conv Dropout Mul
+Pool Conv BN Dense Conv Conv Dropout Add
+Pool Dropout Dropout Mul Dropout Dropout
+Dropout ReLU Mul Conv BN Dropout
+ReLU Add Dense Mul BN Pool Conv Mul ReLU Dense Dropout Add Dropout
+Add Conv Conv BN ReLU
+BN Add Dropout Pool Dense Dropout BN Conv Mul Dense Dense BN ReLU
+Conv Add BN Dropout Mul Dense
+Add Dropout Pool Dropout BN Conv Pool ReLU Mul Mul
+Conv ReLU Add ReLU Add Mul Conv Mul Conv Dropout Conv Pool
+Add Mul Conv Conv Dense ReLU Add Dropout Dropout Dense Conv
+Mul Dense Dense ReLU Conv Add Dropout Mul
+ReLU Add BN ReLU Add Conv Dropout
+BN Dense Dropout Dropout Dense Conv Dense Dense Conv
+Dense Pool Conv ReLU Pool ReLU Pool ReLU Conv BN Dropout
+Conv ReLU Conv Dense Pool Dropout Add Conv Add Mul Add
+Pool Mul Mul Pool Dropout Dense Mul Add BN Mul Pool Dense Conv Dense
+Add Mul Add Mul ReLU
+Dropout Dense ReLU Conv Conv BN ReLU Mul Add
+Add Dense Pool BN Dropout Pool Conv Pool BN BN
+Dense Mul Dense Add Dense BN
+BN ReLU Mul Dropout ReLU Pool
+Mul Pool Dropout Conv Dropout ReLU Add Mul
+Pool Dense Conv Conv Dense Add Conv Mul
+Add Mul BN Mul ReLU Pool Mul Dropout ReLU Dropout Mul Conv
+BN Conv ReLU Mul Pool ReLU ReLU Mul BN Dropout Add Conv ReLU
+Mul Dense Pool Dropout Dense Pool
+Pool Mul Pool Pool Pool Mul ReLU
+Pool Dropout Dense Dropout Add Conv
+Add Mul Pool BN ReLU ReLU Dropout Dense Dropout ReLU
+Mul ReLU ReLU Dropout Pool Pool Conv Conv BN
+BN Dense Add Conv Mul Mul Dropout Pool Mul Mul Mul Add Conv Mul
+Pool Dense Conv Dropout Dropout Add BN Conv Pool Dense Conv Mul Conv Dense
+Dropout Dropout Pool ReLU Add Conv Dense Mul Dense Add Mul ReLU Add Dropout
+ReLU BN Dense Dense Pool Dropout
+Mul Add Dense ReLU Add Mul Mul Dropout Dense ReLU Add
+BN Dropout Dropout ReLU Mul Mul Pool Add Dropout Dense ReLU Dropout Conv Mul
+Dense Dense Add BN ReLU Dropout
+Dropout BN Dropout Dense Dense BN Dense Pool
+Mul BN Conv Dropout Add Conv
+Mul Dropout BN BN Add Dense ReLU Dropout
+ReLU Dropout Pool Dropout Pool Mul Pool Conv Dense ReLU Dense
+Conv Mul Mul Add Add
+Add BN BN Dropout BN
+Add Dropout Dense BN Add ReLU ReLU
+Mul ReLU ReLU BN BN Pool Add BN Mul Conv Dense Dropout Pool Pool
+ReLU Mul Dropout Pool ReLU ReLU ReLU Dense Dropout Dropout Conv
+Add Add Conv Pool Dense Mul Mul Pool BN Dense Dense
+Conv BN Pool Pool Pool ReLU Mul ReLU
+Add Dense ReLU Conv Conv Dense Dropout
+Dense Pool Conv Dropout BN Mul BN
+Conv Conv Pool Conv Dropout BN Dense Add Conv Dense Conv
+Dropout Dense Add Pool Add Conv Dense Pool Mul Dropout ReLU Mul Add
+Dropout ReLU BN Mul Dense
+Add Pool Mul ReLU Mul Dense Dense BN Mul Pool
+Mul Conv Add BN Dense BN Dropout Dense Pool Dropout Add
+Pool Dropout Pool Dropout Conv Mul ReLU Dense ReLU Dense Add
+Dropout Mul Add Dense Conv BN Add Pool Pool Mul Pool Pool Dropout
+Dense Conv Pool Dense Dense Pool Conv Conv Dropout Dropout
+Mul ReLU Dropout Add Pool Conv Conv Pool
+BN Mul Add Add Pool Dense Conv Add Mul Dense Dropout Conv
+Conv Add Add Add Conv Dense Dense
+Conv Dense Dense Mul Pool ReLU
+Conv Conv Pool ReLU Mul Pool Dense Add Pool Mul
+Mul ReLU ReLU Dense Add Dropout Add Pool Dropout ReLU
+Mul Mul ReLU Conv Add Mul BN Pool
+Conv ReLU Mul Dropout ReLU Dropout ReLU Add ReLU Conv ReLU ReLU Conv Add
+Dropout Add Dropout Conv Conv Dropout BN BN Add Pool Dense Mul Dense Mul
+Conv Conv Mul Pool ReLU Pool Mul Mul Conv
+Pool Conv Dense Mul ReLU Dropout Conv Pool Add ReLU Dense
+ReLU Conv Add ReLU Pool Dense BN Dense
+Dense Dense Conv Dropout Pool
+Pool Dense Add Add Dense Mul Add Conv BN
+Conv Dropout Pool Dropout Dropout Pool Dense Conv Dense Dropout Dense
+Pool Dropout BN ReLU Dense
+Dense Add BN Dropout Dense Conv BN Pool BN Dropout ReLU
+Conv Add Pool BN ReLU Mul Mul Add Pool
+BN BN Dropout Pool Pool ReLU Pool Dropout Dense
+ReLU BN Conv Dense BN Dense Dropout Mul Pool BN Mul
+Dropout Mul Dense Conv Conv ReLU Mul Mul BN BN
+Conv BN Dense Add Dropout Pool Dropout ReLU Pool Add Pool Conv ReLU
+Dense Dense Dense BN Add Conv Conv Pool Conv Conv Mul
+Mul Add ReLU Pool Dropout Dropout BN Dense
+Mul Pool Dense Conv Conv Mul Add ReLU Dense Mul Dense Pool Conv
+Conv ReLU Pool ReLU Mul ReLU BN Dropout Dense Mul Dropout
+Dense ReLU Pool Conv Mul Conv BN Mul
+Conv ReLU ReLU Conv Conv
+Mul Dropout ReLU Conv Pool Mul Dense Dense ReLU Conv Add Dense Dropout Dropout
+BN Dropout Dense Dropout ReLU Add Add Dense Mul Pool Add Dropout
+Mul Pool Pool Conv BN Add Conv Add BN Add
+Pool Dropout BN Mul Pool Pool Conv Conv Dropout Dropout
+Conv Add ReLU Dropout BN BN BN
+BN Mul Dense BN Dropout BN Dense Mul ReLU
+Dropout ReLU Conv Add Add
+Mul ReLU Conv Dense BN BN Pool
+BN Dropout Pool ReLU BN BN Add Dense Dropout ReLU Dropout Conv ReLU
+Add BN ReLU Dropout BN BN Dropout Add ReLU
+Conv Dense Conv Dense Mul BN Conv Mul
+Pool Dropout Mul Dropout Mul Dense Conv Dropout Dropout Pool Add Dropout
+ReLU BN Mul BN Dense Dense Pool Conv Dense
+Dense Dense Add ReLU Pool ReLU Dense Mul Mul Dense Pool Dense BN
+ReLU ReLU Dropout ReLU Add Add Add Conv Add Pool Pool Pool
+Add BN Dense Pool Add BN Pool Conv Dropout Conv
+Pool Add BN Pool ReLU BN Conv Dropout Pool Conv
+Mul Pool Mul Conv Mul Add ReLU BN Add Dropout ReLU
+Mul Pool Pool Dense ReLU ReLU Dense Dropout Dense Pool
+Add Add BN Mul BN BN
+BN Add Conv Pool Pool
+Pool Dense Pool Mul Conv Pool BN Mul Mul Pool ReLU Add Mul BN
+BN Conv Conv Conv Pool Dense Add Conv Pool Dense BN Dropout BN
+Conv Dropout Conv ReLU Pool BN Dense Dropout Add ReLU Dense Mul BN
+Dropout BN Conv Pool Mul Dropout Add Add Mul ReLU ReLU ReLU
+Pool Dense Conv Dense BN BN Add BN
+Pool Pool ReLU ReLU BN ReLU Dense Dense Mul Dropout BN
+Conv Mul BN Dropout BN Pool BN Dropout Mul ReLU Mul Dense Conv
+ReLU Dropout Add Dense Mul ReLU Pool Dense BN Conv Conv Mul Conv Add
+Conv ReLU Conv Dense Dropout Mul BN Conv Mul Dropout Add Mul
+Dense ReLU Mul Pool ReLU Mul
+Add Conv Pool Pool Dropout Pool
+Conv Add Pool Dropout Mul Dropout BN
+Conv Mul Add Pool Pool Conv Dropout Conv Dropout Add BN ReLU Mul BN
+Pool Dense Mul Dropout Dropout Pool ReLU Add Dense Pool Pool BN Dropout Dense
+Pool BN Dense Conv Conv Dense Pool ReLU Add BN Pool
+ReLU Pool Dense Conv Dense BN Add ReLU
+Conv ReLU Pool Mul Pool Dense Add Dense Add Mul
+BN Pool BN Dropout BN BN Dropout Add Dense Dropout Add ReLU
+Dropout Add Conv BN ReLU
+BN BN Pool Add Add BN Add Conv ReLU ReLU Mul Dropout Pool
+Add Mul Add Mul Dense Pool BN BN ReLU Add Dropout Dropout
+Add Add Pool Add Mul ReLU Add ReLU Add Conv
+Mul Pool Conv Pool Conv Add Pool Conv Dense ReLU Dropout
+Dense BN BN Dense Dense
+Dropout BN Conv Pool Dense ReLU Dropout Pool Dense ReLU Conv Conv
+ReLU BN Conv Add Add
+Add BN Mul Mul Pool Mul BN Dense Add Pool Add Dropout Mul Dense
+ReLU ReLU Add Dropout Dense
+BN Mul ReLU Dense Pool BN Pool ReLU BN Mul Conv
+ReLU Pool Dense Mul BN Dense Add BN Mul Dropout ReLU
+Pool BN ReLU ReLU Dense Add
+BN Pool Add Pool Add Dense BN Mul
+Conv Dropout Add BN Conv BN
+BN Add Pool ReLU Conv Pool BN ReLU Conv Pool Dense
+Dropout Dense Pool Mul Dense Pool BN ReLU Pool Dense Pool Pool ReLU Conv
+BN Dense Pool Dropout Pool Dense Dropout Pool ReLU Dropout
+ReLU Add Dense Pool Add Dense Add Add Pool Mul
+ReLU Conv Mul BN Conv ReLU Mul Conv ReLU BN Mul
+Add Mul Pool BN Mul Add Add ReLU Pool Mul
+Pool Add Mul Conv Dropout Add
+Add Mul Conv Conv Pool Add Conv ReLU Dropout
+Conv Pool ReLU Dropout Dense Mul ReLU Pool Dense ReLU Add
+Conv Dense Dropout Conv ReLU Dense Pool ReLU Conv Dense
+Pool Pool Pool Mul Pool ReLU ReLU Pool Add ReLU
+Mul Mul Dropout Pool BN ReLU
+Dropout ReLU Pool Dense ReLU Add Mul Mul Dropout Mul Dense
+Mul Mul Dense Dense ReLU Pool Dense ReLU
+BN Pool BN Mul Mul Add Add Dense Mul BN Dense Pool Conv
+BN Add Conv Dense Mul ReLU Conv
+Pool Conv Conv BN Mul Conv Pool Dense Conv Conv
+Mul Dense Dropout Dense ReLU Dropout Dropout
+Pool BN ReLU Dense Conv BN Mul ReLU Dense Mul
+Add BN Add BN Pool Conv Mul Dropout Add
+Mul Dropout Pool Mul Dropout Mul BN ReLU Conv
+Add ReLU Mul Mul ReLU Add Add Add Conv Add BN
+Add Dropout BN Dense Pool Conv ReLU BN ReLU Dense Pool BN ReLU
+Dense Dropout Dropout Mul ReLU BN Conv
+Mul Conv ReLU Pool Mul Mul ReLU ReLU Mul BN BN Pool Conv
+Add Mul Dense BN Pool Pool
+ReLU Dropout Dropout Add Conv Mul
+Add Pool ReLU Mul Conv Pool Conv Mul
+Mul Dropout Add Mul Dropout Dropout ReLU ReLU Dense Add Dense
+Conv Dense Add Pool Dense Conv Dense Dense Mul Pool Dense
+Add Dense BN Pool ReLU
+Dense Dropout ReLU Conv BN ReLU Pool Add Conv BN
+Pool Conv Dense ReLU Mul ReLU Conv ReLU Pool Pool Dense Dense
+Dropout Mul Dense Dropout Add Dense Conv Conv Conv Dropout Add
+Dense ReLU ReLU ReLU Pool
+ReLU Mul Add Mul Add
+Add Conv Mul Dropout Dropout Dropout Mul Mul
+Dropout ReLU Dropout Dropout BN Pool BN BN Dense BN Dropout BN
+Mul Conv Dropout Dropout Add Conv Add Add
+Pool Conv Mul ReLU Dense Conv Mul Conv Conv Add
+BN Dense Dropout Dropout Dense Conv Mul Add Mul
+Pool Dropout Dense Add Add BN Mul Conv Mul Mul Add Dropout Add ReLU
+Pool BN Mul Mul Dense
+Dense Pool ReLU Dense Add Dense ReLU
+Dense BN Conv Dropout BN BN Dropout Add
+Add Mul Pool Add Add Mul Conv
+Pool Pool Conv BN ReLU
+Dropout BN Conv ReLU Mul Pool
+Add Pool Dropout Pool BN
+Dropout Dropout Dropout Conv Conv Dense Conv ReLU Pool Conv
+Dense Mul Dense Dropout ReLU Dense
+Mul Mul BN Conv Pool ReLU Add
+Dense Add Add Add Mul BN Pool BN
+Dropout Add Mul Dense Mul Conv ReLU Conv
+Dense Mul Dropout Dropout Mul Pool Mul BN Mul
+Conv BN Conv Conv Dropout Dense Mul BN Mul Conv Dense BN
+Pool Add Dropout Dense Dense Dense Pool Conv
+Pool Dense Dense Conv Add Mul Dropout BN Pool Add Dropout
+Pool BN Mul Dropout Mul Pool Dense Dense BN
+Pool Add Add Mul Add Add
+ReLU Mul Pool ReLU Conv BN Conv Dense Conv Dense Mul BN Dropout BN
+ReLU Mul ReLU Mul Pool Pool Conv Conv Dropout Dense Mul Pool
+Pool Dropout BN Dense Dropout Mul ReLU Add Pool BN ReLU Pool Dropout Add
+Dropout Add Dropout Mul Dropout Dense Add BN Conv Dropout
+Pool ReLU Add Dense Pool Dropout Dense Add Pool Mul ReLU Dropout
+Dense ReLU BN Dropout Add Pool Pool BN BN Dense
+Dropout Pool ReLU Pool Mul Pool Conv Mul Mul Mul
+Pool BN BN ReLU Pool Mul
+Dense Dropout ReLU Pool Mul BN Add BN
+Dense Dense BN Pool Conv Add ReLU Dense Add BN Pool Pool Mul
+Conv Dropout Pool Conv Dropout
+ReLU ReLU Pool Mul Conv Dense Conv Mul BN Pool Conv ReLU Dropout Dropout
+Pool Add ReLU BN BN
