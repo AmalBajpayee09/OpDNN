@@ -21,32 +21,35 @@ decoder_model.eval()
 # Load data (just 1 sample)
 trace = load_trace_features("data/trace_features.csv").reshape(-1, NUM_KERNELS, INPUT_DIM)
 sequences = load_layer_sequences("data/layer_sequences.txt")
-x = torch.tensor(trace[0:1], dtype=torch.float32)
-true_seq = sequences[0]
+def decode(indices):
+    result = []
+    prev = -1
+    for idx in indices:
+        if idx != 0 and idx != prev:
+            result.append(VOCAB_IDX.get(idx, 'UNK'))
+        prev = idx
+    return result
 
-# Predict
-with torch.no_grad():
-    _, _, fused = opi_model(x)
-    logits = decoder_model(fused)
-    logits = logits / 0.5
-    logits[:, :, 0] -= 2.0
-    log_probs = torch.nn.functional.log_softmax(logits, dim=2)
+#
+# Predict and show first 10 samples
+N = min(10, len(trace))
+for i in range(N):
+    x = torch.tensor(trace[i:i+1], dtype=torch.float32)
+    true_seq = sequences[i]
 
-# Decode output (greedy)
-pred_indices = torch.argmax(log_probs, dim=2).squeeze().tolist()
+    with torch.no_grad():
+        _, _, fused = opi_model(x)
+        logits = decoder_model(fused)
+        logits = logits / 0.5
+        logits[:, :, 0] -= 2.0
+        log_probs = torch.nn.functional.log_softmax(logits, dim=2)
 
-# Postprocess (remove blanks and repeats)
-final_pred = []
-prev = -1
-for idx in pred_indices:
-    if idx != 0 and idx != prev:
-        final_pred.append(VOCAB_IDX.get(idx, 'UNK'))
-    prev = idx
+    pred_indices = torch.argmax(log_probs, dim=2).squeeze().tolist()
+    pred_seq = decode(pred_indices)
 
-# Output
-print("🟢 True Layer Sequence:")
-print(" →", " ".join(true_seq))
-print("\n🔵 Predicted Layer Sequence:")
-print(" →", " ".join(final_pred))
-print("\n✅ Prediction completed successfully!")
-print("You can now use this prediction for further analysis or visualization.")
+    print(f"\n🟢 True Layer Sequence [{i+1}]:")
+    print(" →", " ".join(true_seq))
+    print(f"\n🔵 Predicted Layer Sequence [{i+1}]:")
+    print(" →", " ".join(pred_seq))
+
+print("\n✅ Prediction completed for all samples.")
