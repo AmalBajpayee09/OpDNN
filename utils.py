@@ -14,6 +14,7 @@ def load_layer_sequences(path):
     return sequences
 
 def edit_distance(a, b):
+    """ Levenshtein-based error rate (1 - similarity) """
     return 1 - SequenceMatcher(None, a, b).ratio()
 
 def mean_absolute_error(y_true, y_pred):
