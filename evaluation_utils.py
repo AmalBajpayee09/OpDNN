@@ -1,4 +1,5 @@
 # evaluation_utils.py
+
 import torch
 import numpy as np
 from difflib import SequenceMatcher
@@ -44,16 +45,16 @@ def evaluate_predictions(logits_all, true_sequences):
 
     acc = sum([levenshtein_ratio(p, t) > 0.8 for p, t in zip(predictions, ground_truths)]) / len(predictions)
     avg_lev = sum(ratios) / len(ratios)
+    avg_ler = 1 - avg_lev
 
     print(f"🔍 Accuracy: {acc:.2f}")
     print(f"✏️  Levenshtein Similarity: {avg_lev:.2f}")
+    print(f"📉 Label Error Rate (LER): {avg_ler:.2f}")
     print("✅ predictions_log.csv saved")
 
     # Confusion Matrix
     true_flat = [layer for seq in ground_truths for layer in seq]
     pred_flat = [layer for seq in predictions for layer in seq]
-
-    # Match lengths
     min_len = min(len(true_flat), len(pred_flat))
     true_flat = true_flat[:min_len]
     pred_flat = pred_flat[:min_len]
@@ -70,10 +71,22 @@ def evaluate_predictions(logits_all, true_sequences):
     plt.savefig("confusion_matrix.png")
     print("📊 confusion_matrix.png saved")
 
-    # ✅ Print sample mismatches
+    # Sample mismatches
     print("\n🔍 Sample mismatch:")
     for i in range(min(3, len(predictions))):
         print(f"\nGT: {' '.join(ground_truths[i])}")
         print(f"PR: {' '.join(predictions[i])}")
 
+    plt.show()
+    return acc, avg_lev, avg_ler
+def plot_loss(loss_history):
+    plt.figure(figsize=(8, 5))
+    plt.plot(loss_history, color='blue', marker='o')
+    plt.title("Training Loss over Epochs")
+    plt.xlabel("Epoch")
+    plt.ylabel("Loss")
+    plt.grid(True)
+    plt.tight_layout()
+    plt.savefig("training_loss_curve.png")
+    print("📉 Loss graph saved as training_loss_curve.png")
     plt.show()
